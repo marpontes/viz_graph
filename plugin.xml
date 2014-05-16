@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<plugin title="viz_graph"> 
+   <static-paths>
+     <static-path url="/viz_graph/resources" localFolder="resources"/>
+   </static-paths>
+   
+	<external-resources> 
+	  <file context="analyzer">content/viz_graph/resources/graph.css</file> 
+	  <file context="analyzer">content/viz_graph/resources/graph.js</file> 
+	  <file context="analyzer">content/viz_graph/resources/graph_analyzer_plugin.js</file> 
+	  
+	  <file context="analyzer">content/viz_graph/resources/arborjs/arbor.js</file> 
+	  <file context="analyzer">content/viz_graph/resources/arborjs/graphics.js</file> 
+	  <file context="analyzer">content/viz_graph/resources/arborjs/renderer.js</file> 
+	  
+	</external-resources>
+   
+</plugin>      
