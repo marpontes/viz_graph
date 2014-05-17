@@ -195,6 +195,22 @@ pen.require(["common-ui/vizapi/VizController"], function () {
                 sys.prune();
 
             this.newCanvas();
+            
+            /*
+            
+            	*
+            	* This part of the code demonstrates how to get member properties
+            	* from the dataTable
+            	*
+            
+            this.dataTable = datView.dataTable;
+            for( var columnIdx=0; columnIdx<this.dataTable.getNumberOfColumns(); columnIdx++) {
+            	var type = this.dataTable.getColumnProperty(columnIdx,'geoRole');
+            	console.log("---------------------")
+            	console.log(type);
+            	console.log("---------------------")
+            }
+            */
 
             var rows = datView.dataTable.jsonTable.rows; // Rows from the resultset
             sys = arbor.ParticleSystem(2600, 400, 0.5); // arbor sys
